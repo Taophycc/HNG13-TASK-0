@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taofeek's Profile Card</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body data-testid="body">
+    <main data-testid="main">
+      <article class="profile-card" data-testid="test-profile-card">
+        <figure class="avatar" data-testid="avatar-figure">
+          <img
+            src="./images/69c194bb79b78c414aef51b98c11317b.jpg"
+            alt="Taofeek Kassim Avatar"
+            data-testid="test-user-avatar"
+          />
+        </figure>
+
+        <header class="user-info" data-testid="user-info">
+          <h2 data-testid="test-user-name">Taofeek Kassim</h2>
+          <h3 data-testid="test-user-title">Software engineer</h3>
+          <p data-testid="test-user-bio">
+            Software engineer passionate about building scalable systems,
+            open-source contribution, and AI technologies.
+          </p>
+          <p data-testid="time-container">
+            Current Time: <span data-testid="test-user-time"></span>
+          </p>
+        </header>
+
+        <section
+          class="dev-stack"
+          aria-label="Developer stack"
+          data-testid="test-user-stack"
+        >
+          <h3 data-testid="heading-stack">Developer Stack</h3>
+          <ul data-testid="stack-list">
+            <li data-testid="stack-html">HTML</li>
+            <li data-testid="stack-css">CSS</li>
+            <li data-testid="stack-js">JavaScript</li>
+            <li data-testid="stack-react">ReactJS</li>
+            <li data-testid="stack-next">NextJS</li>
+            <li data-testid="stack-tailwind">TailwindCSS</li>
+            <li data-testid="stack-postgresql">PostgreSQL</li>
+            <li data-testid="stack-mysql">MySQL</li>
+          </ul>
+        </section>
+
+        <nav aria-label="Social media links" data-testid="social-nav">
+          <h3 data-testid="heading-connect">Connect</h3>
+          <ul class="social-links" data-testid="test-user-social-links">
+            <li data-testid="social-item-github">
+              <a
+                href="https://github.com/taophycc"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="test-user-social-github"
+                >GitHub</a
+              >
+            </li>
+            <li data-testid="social-item-linkedin">
+              <a
+                href="https://linkedin.com/in/taofeek-kassim"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="test-user-social-linkedin"
+                >LinkedIn</a
+              >
+            </li>
+            <li data-testid="social-item-twitter">
+              <a
+                href="https://twitter.com/taophycc"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="test-user-social-twitter"
+                >Twitter</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <section class="hobbies" data-testid="hobbies-section">
+          <h3 data-testid="heading-hobbies">Hobbies</h3>
+          <ul data-testid="test-user-hobbies">
+            <li data-testid="hobby-coding">Coding</li>
+            <li data-testid="hobby-bigbang">Watching the big bang</li>
+            <li data-testid="hobby-reading">Reading articles</li>
+          </ul>
+        </section>
+
+        <section class="dislikes" data-testid="dislikes-section">
+          <h3 data-testid="heading-dislikes">Dislikes</h3>
+          <ul data-testid="test-user-dislikes">
+            <li data-testid="dislike-internet">Poor Internet</li>
+            <li data-testid="dislike-noise">Noise</li>
+            <li data-testid="dislike-urgency">Lack of urgency</li>
+          </ul>
+        </section>
+      </article>
+    </main>
+
+    <script src="script.js" data-testid="script"></script>
+  </body>
+</html>
