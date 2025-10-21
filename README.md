@@ -66,7 +66,7 @@ The website is fully responsive and works seamlessly across:
 
 2. Navigate to the project directory:
    ```bash
-   cd HNG-1
+   cd HNG-0&1
    ```
 
 3. Open `index.html` in your web browser, or use a local development server:
@@ -104,7 +104,7 @@ All pages include `data-testid` attributes for automated testing. Key test IDs i
 ## File Structure
 
 ```
-HNG-1/
+HNG-0&1/
 ├── index.html          # Home page
 ├── contact.html        # Contact form page
 ├── about.html          # About me page
@@ -115,6 +115,7 @@ HNG-1/
 ├── script.js           # Home page JavaScript
 ├── contact.js          # Contact form validation
 ├── images/             # Image assets
+│   └── 69c194bb79b78c414aef51b98c11317b.jpg      # User avatar image
 └── README.md           # Project documentation
 ```
 
