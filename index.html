@@ -4,10 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Taofeek's Profile Card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="home.css" />
   </head>
   <body data-testid="body">
-    <main data-testid="main">
+    <header class="page-header">
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">About Me</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main data-testid="main" class="home-main">
       <article class="profile-card" data-testid="test-profile-card">
         <figure class="avatar" data-testid="avatar-figure">
           <img
@@ -99,6 +113,10 @@
         </section>
       </article>
     </main>
+
+    <footer class="page-footer">
+      <p>&copy; 2025 Taofeek Kassim. All rights reserved.</p>
+    </footer>
 
     <script src="script.js" data-testid="script"></script>
   </body>

@@ -1,0 +1,85 @@
+/* Navigation Styles for Home Page */
+.page-header {
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.main-nav ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  padding: 1rem 2rem;
+  margin: 0;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #2c3e50;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.main-nav a:hover {
+  background-color: #f5f7fa;
+  color: #3498db;
+}
+
+.main-nav a[aria-current="page"] {
+  color: #3498db;
+  background-color: #e3f2fd;
+}
+
+.main-nav a:focus {
+  outline: 2px solid #3498db;
+  outline-offset: 2px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.home-main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0rem;
+}
+
+/* Footer Styles */
+.page-footer {
+  background-color: transparent;
+  color: #2c3e50;
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: auto;
+}
+
+.page-footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .main-nav ul {
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .home-main {
+    padding-block: 2rem;
+    padding-inline: 0;
+  }
+}
+

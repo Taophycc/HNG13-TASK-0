@@ -11,7 +11,7 @@ body {
   min-height: 100vh;
   background: #f5f7fa;
   padding: 1rem;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif;
   color: #2c3e50;
 }
@@ -135,7 +135,6 @@ section h3 {
   font-size: 0.875rem;
   font-weight: 600;
   margin-bottom: 0.75rem;
-  text-transform: uppercase;
   letter-spacing: 0.05em;
 }
 
